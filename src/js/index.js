@@ -4,9 +4,9 @@ const btnVoltar = document.getElementById('btn-voltar')
 const cartoes = document.querySelectorAll('.cartao')
 let cartaoAtual = 0
 
-btnAvancar.addEventListener('click', function(){
+btnAvancar.addEventListener('click', function () {
 
-    if(cartaoAtual === cartoes.length - 1) {
+    if (cartaoAtual === cartoes.length - 1) {
         cartaoAtual = -1
     }
 
@@ -18,8 +18,8 @@ btnAvancar.addEventListener('click', function(){
 
 })
 
-btnVoltar.addEventListener('click', function(){
-    if(cartaoAtual === 0) {
+btnVoltar.addEventListener('click', function () {
+    if (cartaoAtual === 0) {
         cartaoAtual = 3
     }
 
